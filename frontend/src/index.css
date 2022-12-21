@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background: #212529;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.my-op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-op > img {
+  width: 256px;
+  height: 256px;
+}
