@@ -16,7 +16,7 @@ function Hero() {
               </p>
               <a
                 href="https://openai.com/blog/dall-e/"
-                class="btn btn-secondary col-3 text-start fw-bold "
+                class="btn btn-secondary col-4 text-start fw-bold "
                 target="_blank"
               >
                 OpenAI

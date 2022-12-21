@@ -5,6 +5,7 @@ function Form() {
   //   const [size, setSize] = useState("256x256");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [btnLoading, setBtnLoading] = useState(false);
   const [finalUrl, setFinalUrl] = useState("");
 
   const baseUrl = "https://openai-lac.vercel.app";
@@ -22,6 +23,7 @@ function Form() {
 
   const generateImage = async (prompt) => {
     setError("");
+    setBtnLoading(true);
     setLoading(true);
     setFinalUrl("");
     try {
@@ -37,6 +39,7 @@ function Form() {
 
       if (!response.ok) {
         setLoading(false);
+        setBtnLoading(false);
         setError("That image could not be generated");
         throw new Error("That image could not be generated");
       }
@@ -45,6 +48,7 @@ function Form() {
       setPrompt("");
       setError("");
       setLoading(false);
+      setBtnLoading(false);
       setFinalUrl(data.data);
     } catch (error) {
       console.error();
@@ -74,6 +78,25 @@ function Form() {
         <div className="spinner-border text-light" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
+      )
+    );
+  };
+
+  const showLoadingBtn = () => {
+    return (
+      btnLoading && (
+        <button
+          class="btn btn-secondary col-4  text-start fw-bold mt-4"
+          type="button"
+          disabled
+        >
+          <span
+            class="spinner-border spinner-border-sm"
+            role="status"
+            aria-hidden="true"
+          ></span>
+          Generating...
+        </button>
       )
     );
   };
@@ -121,12 +144,16 @@ function Form() {
             </div> */}
             {/* btn */}
             {showAlert()}
-            <button
-              type="submit"
-              class="btn btn-secondary col-3  text-start fw-bold mt-4"
-            >
-              Generate Image <i class="bi bi-arrow-right bg-secondary" />
-            </button>
+            {btnLoading ? (
+              showLoadingBtn()
+            ) : (
+              <button
+                type="submit"
+                class="btn btn-secondary col-4  text-start fw-bold mt-4"
+              >
+                Generate Image <i class="bi bi-arrow-right bg-secondary" />
+              </button>
+            )}
           </form>
         </section>
 

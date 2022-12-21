@@ -8,7 +8,7 @@ function Home() {
     <div className="container-md bg-dark">
       <Navbar />
       <Hero />
-      <h1 className="text-center mt-5">
+      <h1 className="text-start mt-5">
         <i class="bi bi-arrow-down text-light" />
       </h1>
       <Form />
