@@ -7,7 +7,8 @@ function Form() {
   const [loading, setLoading] = useState(false);
   const [finalUrl, setFinalUrl] = useState("");
 
-  const baseUrl = process.env.REACT_APP_BASE_URL;
+  const baseUrl =
+    process.env.REACT_APP_BASE_URL || "https://openai-lac.vercel.app";
 
   // https://openaiimagegenerator.vercel.app/
 
