@@ -22,7 +22,11 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#learn" className="btn btn-secondary fw-bold">
+                <a
+                  href="https://github.com/theakshaymore/openAI"
+                  className="btn btn-secondary fw-bold"
+                  target="_blank"
+                >
                   Get Code
                 </a>
               </li>
