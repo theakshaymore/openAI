@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.be8f3c5c.css",
-    "main.js": "/static/js/main.99eff359.js",
+    "main.js": "/static/js/main.b3d158c4.js",
     "static/media/openAi.png": "/static/media/openAi.4a9a0d8064975ebbd300.png",
     "index.html": "/index.html",
     "main.be8f3c5c.css.map": "/static/css/main.be8f3c5c.css.map",
-    "main.99eff359.js.map": "/static/js/main.99eff359.js.map"
+    "main.b3d158c4.js.map": "/static/js/main.b3d158c4.js.map"
   },
   "entrypoints": [
     "static/css/main.be8f3c5c.css",
-    "static/js/main.99eff359.js"
+    "static/js/main.b3d158c4.js"
   ]
 }
