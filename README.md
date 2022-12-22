@@ -18,25 +18,23 @@ Live project link: [https://openai-lac.vercel.app/](https://makescene.com).
   > git clone https://github.com/theakshaymore/openAI
 - In the root of project directory, run following commands:
 
-  >
-
   - _(to start backend)_
 
     ```
     npm install
     npm start
-
     ```
 
   - _(to start frontend)_
+
     ```
     cd frontend
     npm install
     npm start
+
     ```
 
 - Setup environment variables
-  >
   - create ".env" file in root directory
   - add following
   ```
