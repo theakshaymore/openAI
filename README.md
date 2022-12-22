@@ -1,6 +1,6 @@
 # MakeScene
 
-Live project link: [https://openai-lac.vercel.app/](https://makescene.com).
+Live project link: [https://makescene.com](https://openai-lac.vercel.app/).
 
 📸 The **MakeScene - OpenAI-Image-Generator** allows you to create an image given a text prompt. Build using Node, Express, React & OpenAI APIs. The more detailed the description, the more likely you are to get the result that you or your end user want
 
