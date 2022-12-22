@@ -6,7 +6,7 @@ Live project link: [https://openai-lac.vercel.app/](https://openai-lac.vercel.ap
 
 ## Screenshots
 
-![mindmap](./ss5.png)
+![mindmap](./ss5.gif)
 ![mindmap](./ss1.png)
 ![mindmap](./ss2.png)
 ![mindmap](./ss3.png)
@@ -17,13 +17,22 @@ Live project link: [https://openai-lac.vercel.app/](https://openai-lac.vercel.ap
 - Clone this repository into your local machine
   - git clone https://github.com/theakshaymore/openAI
 - In the root of project directory, run following commands:
-  (to start backend)
-  - npm install
-  - npm start
-    (to start frontend)
-  - cd frontend
-  - npm install
-  - npm start
+
+  - (to start backend)
+
+    ```
+    npm install
+    npm start
+
+    ```
+
+  - (to start frontend)
+    ```
+    cd frontend
+    npm install
+    npm start
+    ```
+
 - Setup environment variables
   - create ".env" file in root directory
   - add following
