@@ -7,7 +7,6 @@ Live project link: [https://makescene.com](https://openai-lac.vercel.app/).
 ## Screenshots
 
 ![mindmap](./ss5.gif)
-![mindmap](./ss1.png)
 ![mindmap](./ss2.png)
 ![mindmap](./ss3.png)
 ![mindmap](./ss4.png)
